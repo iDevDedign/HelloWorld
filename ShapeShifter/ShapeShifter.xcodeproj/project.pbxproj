@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D8C67820810B4900432FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8C67720810B4900432FC1 /* AppDelegate.swift */; };
+		15D8C67A20810B4900432FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8C67920810B4900432FC1 /* ViewController.swift */; };
+		15D8C67D20810B4900432FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D8C67B20810B4900432FC1 /* Main.storyboard */; };
+		15D8C67F20810B4A00432FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D8C67E20810B4A00432FC1 /* Assets.xcassets */; };
+		15D8C68220810B4A00432FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D8C68020810B4A00432FC1 /* LaunchScreen.storyboard */; };
+		15D8C68D20810B4A00432FC1 /* ShapeShifterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8C68C20810B4A00432FC1 /* ShapeShifterTests.swift */; };
+		15D8C69820810B4A00432FC1 /* ShapeShifterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8C69720810B4A00432FC1 /* ShapeShifterUITests.swift */; };
+		3A624AB3454CFC5AA92EECD3 /* Pods_ShapeShifterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B0FD3893EA53D148EC0192 /* Pods_ShapeShifterUITests.framework */; };
+		AB3082B4A3775D449622BFC3 /* Pods_ShapeShifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26FA28B2ED496A6E08D3909 /* Pods_ShapeShifter.framework */; };
+		DD7CAF2406AED6FCDE7EBF01 /* Pods_ShapeShifterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9541450F264DF52FD797C681 /* Pods_ShapeShifterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15D8C68920810B4A00432FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D8C66C20810B4900432FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D8C67320810B4900432FC1;
+			remoteInfo = ShapeShifter;
+		};
+		15D8C69420810B4A00432FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D8C66C20810B4900432FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D8C67320810B4900432FC1;
+			remoteInfo = ShapeShifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D8C67420810B4900432FC1 /* ShapeShifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeShifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D8C67720810B4900432FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D8C67920810B4900432FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15D8C67C20810B4900432FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D8C67E20810B4A00432FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D8C68120810B4A00432FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D8C68320810B4A00432FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D8C68820810B4A00432FC1 /* ShapeShifterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeShifterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D8C68C20810B4A00432FC1 /* ShapeShifterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShifterTests.swift; sourceTree = "<group>"; };
+		15D8C68E20810B4A00432FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D8C69320810B4A00432FC1 /* ShapeShifterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeShifterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D8C69720810B4A00432FC1 /* ShapeShifterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShifterUITests.swift; sourceTree = "<group>"; };
+		15D8C69920810B4A00432FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA40DABA65CE22EA9D7B594 /* Pods-ShapeShifterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifterTests/Pods-ShapeShifterTests.release.xcconfig"; sourceTree = "<group>"; };
+		49E523427F4AC06137C551E0 /* Pods-ShapeShifterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifterUITests/Pods-ShapeShifterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BDE5199BE177A7B746F59C3 /* Pods-ShapeShifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifter/Pods-ShapeShifter.release.xcconfig"; sourceTree = "<group>"; };
+		56B0FD3893EA53D148EC0192 /* Pods_ShapeShifterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapeShifterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF58879F28D0E388489B558 /* Pods-ShapeShifterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifterUITests/Pods-ShapeShifterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9541450F264DF52FD797C681 /* Pods_ShapeShifterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapeShifterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC91968C456F08F95DD2852 /* Pods-ShapeShifterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifterTests/Pods-ShapeShifterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF28787F6C9A70892662D4DC /* Pods-ShapeShifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapeShifter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapeShifter/Pods-ShapeShifter.debug.xcconfig"; sourceTree = "<group>"; };
+		D26FA28B2ED496A6E08D3909 /* Pods_ShapeShifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapeShifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D8C67120810B4900432FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3082B4A3775D449622BFC3 /* Pods_ShapeShifter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C68520810B4A00432FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CAF2406AED6FCDE7EBF01 /* Pods_ShapeShifterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C69020810B4A00432FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A624AB3454CFC5AA92EECD3 /* Pods_ShapeShifterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D8C66B20810B4900432FC1 = {
+			isa = PBXGroup;
+			children = (
+				15D8C67620810B4900432FC1 /* ShapeShifter */,
+				15D8C68B20810B4A00432FC1 /* ShapeShifterTests */,
+				15D8C69620810B4A00432FC1 /* ShapeShifterUITests */,
+				15D8C67520810B4900432FC1 /* Products */,
+				16F930FB4CB9787D441E29C6 /* Pods */,
+				E1C10281EF91E16C0F046D59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15D8C67520810B4900432FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D8C67420810B4900432FC1 /* ShapeShifter.app */,
+				15D8C68820810B4A00432FC1 /* ShapeShifterTests.xctest */,
+				15D8C69320810B4A00432FC1 /* ShapeShifterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D8C67620810B4900432FC1 /* ShapeShifter */ = {
+			isa = PBXGroup;
+			children = (
+				15D8C67720810B4900432FC1 /* AppDelegate.swift */,
+				15D8C67920810B4900432FC1 /* ViewController.swift */,
+				15D8C67B20810B4900432FC1 /* Main.storyboard */,
+				15D8C67E20810B4A00432FC1 /* Assets.xcassets */,
+				15D8C68020810B4A00432FC1 /* LaunchScreen.storyboard */,
+				15D8C68320810B4A00432FC1 /* Info.plist */,
+			);
+			path = ShapeShifter;
+			sourceTree = "<group>";
+		};
+		15D8C68B20810B4A00432FC1 /* ShapeShifterTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D8C68C20810B4A00432FC1 /* ShapeShifterTests.swift */,
+				15D8C68E20810B4A00432FC1 /* Info.plist */,
+			);
+			path = ShapeShifterTests;
+			sourceTree = "<group>";
+		};
+		15D8C69620810B4A00432FC1 /* ShapeShifterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15D8C69720810B4A00432FC1 /* ShapeShifterUITests.swift */,
+				15D8C69920810B4A00432FC1 /* Info.plist */,
+			);
+			path = ShapeShifterUITests;
+			sourceTree = "<group>";
+		};
+		16F930FB4CB9787D441E29C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF28787F6C9A70892662D4DC /* Pods-ShapeShifter.debug.xcconfig */,
+				4BDE5199BE177A7B746F59C3 /* Pods-ShapeShifter.release.xcconfig */,
+				ACC91968C456F08F95DD2852 /* Pods-ShapeShifterTests.debug.xcconfig */,
+				3CA40DABA65CE22EA9D7B594 /* Pods-ShapeShifterTests.release.xcconfig */,
+				6AF58879F28D0E388489B558 /* Pods-ShapeShifterUITests.debug.xcconfig */,
+				49E523427F4AC06137C551E0 /* Pods-ShapeShifterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1C10281EF91E16C0F046D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26FA28B2ED496A6E08D3909 /* Pods_ShapeShifter.framework */,
+				9541450F264DF52FD797C681 /* Pods_ShapeShifterTests.framework */,
+				56B0FD3893EA53D148EC0192 /* Pods_ShapeShifterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D8C67320810B4900432FC1 /* ShapeShifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D8C69C20810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifter" */;
+			buildPhases = (
+				112CBB764635124D4E53FCDD /* [CP] Check Pods Manifest.lock */,
+				15D8C67020810B4900432FC1 /* Sources */,
+				15D8C67120810B4900432FC1 /* Frameworks */,
+				15D8C67220810B4900432FC1 /* Resources */,
+				92F829BAA0D5F5EC61B504C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeShifter;
+			productName = ShapeShifter;
+			productReference = 15D8C67420810B4900432FC1 /* ShapeShifter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15D8C68720810B4A00432FC1 /* ShapeShifterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D8C69F20810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifterTests" */;
+			buildPhases = (
+				6E949086A26BD812FEFBB876 /* [CP] Check Pods Manifest.lock */,
+				15D8C68420810B4A00432FC1 /* Sources */,
+				15D8C68520810B4A00432FC1 /* Frameworks */,
+				15D8C68620810B4A00432FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D8C68A20810B4A00432FC1 /* PBXTargetDependency */,
+			);
+			name = ShapeShifterTests;
+			productName = ShapeShifterTests;
+			productReference = 15D8C68820810B4A00432FC1 /* ShapeShifterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15D8C69220810B4A00432FC1 /* ShapeShifterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D8C6A220810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifterUITests" */;
+			buildPhases = (
+				17AEE2FE4B251224127F7C81 /* [CP] Check Pods Manifest.lock */,
+				15D8C68F20810B4A00432FC1 /* Sources */,
+				15D8C69020810B4A00432FC1 /* Frameworks */,
+				15D8C69120810B4A00432FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D8C69520810B4A00432FC1 /* PBXTargetDependency */,
+			);
+			name = ShapeShifterUITests;
+			productName = ShapeShifterUITests;
+			productReference = 15D8C69320810B4A00432FC1 /* ShapeShifterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D8C66C20810B4900432FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = iDevDesign;
+				TargetAttributes = {
+					15D8C67320810B4900432FC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					15D8C68720810B4A00432FC1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 15D8C67320810B4900432FC1;
+					};
+					15D8C69220810B4A00432FC1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 15D8C67320810B4900432FC1;
+					};
+				};
+			};
+			buildConfigurationList = 15D8C66F20810B4900432FC1 /* Build configuration list for PBXProject "ShapeShifter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D8C66B20810B4900432FC1;
+			productRefGroup = 15D8C67520810B4900432FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D8C67320810B4900432FC1 /* ShapeShifter */,
+				15D8C68720810B4A00432FC1 /* ShapeShifterTests */,
+				15D8C69220810B4A00432FC1 /* ShapeShifterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D8C67220810B4900432FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8C68220810B4A00432FC1 /* LaunchScreen.storyboard in Resources */,
+				15D8C67F20810B4A00432FC1 /* Assets.xcassets in Resources */,
+				15D8C67D20810B4900432FC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C68620810B4A00432FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C69120810B4A00432FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112CBB764635124D4E53FCDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapeShifter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17AEE2FE4B251224127F7C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapeShifterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E949086A26BD812FEFBB876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapeShifterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F829BAA0D5F5EC61B504C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShapeShifter/Pods-ShapeShifter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShapeShifter/Pods-ShapeShifter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D8C67020810B4900432FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8C67A20810B4900432FC1 /* ViewController.swift in Sources */,
+				15D8C67820810B4900432FC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C68420810B4A00432FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8C68D20810B4A00432FC1 /* ShapeShifterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D8C68F20810B4A00432FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8C69820810B4A00432FC1 /* ShapeShifterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D8C68A20810B4A00432FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D8C67320810B4900432FC1 /* ShapeShifter */;
+			targetProxy = 15D8C68920810B4A00432FC1 /* PBXContainerItemProxy */;
+		};
+		15D8C69520810B4A00432FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D8C67320810B4900432FC1 /* ShapeShifter */;
+			targetProxy = 15D8C69420810B4A00432FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15D8C67B20810B4900432FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D8C67C20810B4900432FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D8C68020810B4A00432FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D8C68120810B4A00432FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D8C69A20810B4A00432FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15D8C69B20810B4A00432FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D8C69D20810B4A00432FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF28787F6C9A70892662D4DC /* Pods-ShapeShifter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15D8C69E20810B4A00432FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDE5199BE177A7B746F59C3 /* Pods-ShapeShifter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15D8C6A020810B4A00432FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC91968C456F08F95DD2852 /* Pods-ShapeShifterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeShifter.app/ShapeShifter";
+			};
+			name = Debug;
+		};
+		15D8C6A120810B4A00432FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA40DABA65CE22EA9D7B594 /* Pods-ShapeShifterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeShifter.app/ShapeShifter";
+			};
+			name = Release;
+		};
+		15D8C6A320810B4A00432FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF58879F28D0E388489B558 /* Pods-ShapeShifterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShapeShifter;
+			};
+			name = Debug;
+		};
+		15D8C6A420810B4A00432FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E523427F4AC06137C551E0 /* Pods-ShapeShifterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G23ALRTYPZ;
+				INFOPLIST_FILE = ShapeShifterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alt-D.ShapeShifterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShapeShifter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D8C66F20810B4900432FC1 /* Build configuration list for PBXProject "ShapeShifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D8C69A20810B4A00432FC1 /* Debug */,
+				15D8C69B20810B4A00432FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D8C69C20810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D8C69D20810B4A00432FC1 /* Debug */,
+				15D8C69E20810B4A00432FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D8C69F20810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D8C6A020810B4A00432FC1 /* Debug */,
+				15D8C6A120810B4A00432FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D8C6A220810B4A00432FC1 /* Build configuration list for PBXNativeTarget "ShapeShifterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D8C6A320810B4A00432FC1 /* Debug */,
+				15D8C6A420810B4A00432FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D8C66C20810B4900432FC1 /* Project object */;
+}
