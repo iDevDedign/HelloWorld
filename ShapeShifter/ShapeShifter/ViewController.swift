@@ -14,6 +14,12 @@ class ViewController: UIViewController {
     let rectangleView = UIView()
     let button = UIButton()
     
+    let minWidth: CGFloat = 0
+    let maxWidth: CGFloat = 200
+    
+    let minHeight: CGFloat = 0
+    let maxHeight: CGFloat = 200
+    
     override func loadView() {
         super.loadView()
         
@@ -26,12 +32,16 @@ class ViewController: UIViewController {
         rectangleView.backgroundColor = .red
         view.addSubview(rectangleView)
         
-        let randomWidth = randomInput(min: 0, max: 200)
-        let randomHeight = randomInput(min: 0, max: 200)
-
-        changeRectangleSize(width: randomWidth, height: randomHeight)
+        changeShape()
     }
 //Layout
+    
+    // Change Shape Function
+    func changeShape() {
+        let randomWidth = randomInput(min: minWidth, max: maxWidth)
+        let randomHeight = randomInput(min: minHeight, max: maxHeight)
+        changeRectangleSize(width: randomWidth, height: randomHeight)
+    }
     
     //Button
     override func viewWillLayoutSubviews() {
@@ -43,17 +53,15 @@ class ViewController: UIViewController {
         button.frame = CGRect(x: screenWidth/2 - 120/2, y: screenHeight - 90, width: 120, height: 60 )
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         button.addTarget(self, action: #selector(pressedMyButton), for: .touchUpInside)
     }
-    
+    // Button Event
     @objc func pressedMyButton() {
-        let randomWidth = randomInput(min: 0, max: 200)
-        let randomHeight = randomInput(min: 0, max: 200)
-        
-        changeRectangleSize(width: randomWidth, height: randomHeight)
+        changeShape()
     }
     
     //Size it up that Rectangle
@@ -62,9 +70,12 @@ class ViewController: UIViewController {
         let screenWidth = view.bounds.width
         let screenHeight = view.bounds.height
         
-        rectangleView.frame = CGRect(x: screenWidth/2 - width/2, y: screenHeight/2 - height/2, width: width, height: height)
+        UIView.animate(withDuration: 0.1) {
+            self.rectangleView.frame = CGRect(x: screenWidth/2 - width/2, y: screenHeight/2 - height/2, width: width, height: height)
+        }
     }
 
+    // Randomize
     func randomInput(min: CGFloat, max: CGFloat) -> CGFloat {
         return CGFloat(Float(arc4random()) / Float(UINT32_MAX)) * (max - min) + min
     }
