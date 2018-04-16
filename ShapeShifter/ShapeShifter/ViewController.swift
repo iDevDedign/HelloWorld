@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     let maxWidth: CGFloat = 200
     
     let minHeight: CGFloat = 0
-    let maxHeight: CGFloat = 200
+    let maxHeight: CGFloat = 450
     
     override func loadView() {
         super.loadView()
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         button.frame = CGRect(x: screenWidth/2 - 120/2, y: screenHeight - 90, width: 120, height: 60 )
     }
     
-    
+    //Button press event Output
     override func viewDidLoad() {
         super.viewDidLoad()
         
